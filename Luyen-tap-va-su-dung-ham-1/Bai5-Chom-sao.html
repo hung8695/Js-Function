@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let str =prompt("");
+
+    let arr2=["Ursa Minor", "Tarurus", "Cygnus", "Lyra", "Aquila", "Ursa Major", "Leo"];
+    let arr1=["Polaris", "Aldebaran", "Deneb", "Vega", "Altair", "Dubhe" , "Regulus"];
+    let a=find(arr1,arr2,str);
+    document.write(a)
+        function find(arr1,arr2,str){
+            let x;
+            for(let i=0;i<arr1.length;i++){
+                if(str==arr1[i]){
+                    return arr2[i];
+                } else{
+                    return 'Khong co chom sao nay';
+
+
+
+                }
+            }
+
+        }
+</script>
+</body>
+</html>
