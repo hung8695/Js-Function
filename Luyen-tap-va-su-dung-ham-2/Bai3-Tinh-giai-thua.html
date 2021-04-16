@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    document.write(tinhGiaiThua(3))
+    function tinhGiaiThua(num){
+        if(num<0){
+            return false;
+        }else if (num==0){
+            return 1;
+        } else {
+            let gt=1;
+            for(var i=1;i<=num;i++){
+                gt*=i;
+            }
+            return gt;
+        }
+
+    }
+</script>
+</body>
+</html>

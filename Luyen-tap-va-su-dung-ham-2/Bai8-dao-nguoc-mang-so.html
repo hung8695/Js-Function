@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+   document.write(daoNguocMangSo(nhapMang([])));
+
+    function nhapMang(arr) {
+        let n = +prompt("Nhap do dai cua mang");
+        for (var i = 0; i < n; i++) {
+            arr[i] = prompt("");
+        }
+        return arr;
+    }
+    function daoNguocMangSo(arr) {
+        let first = 0;
+        let last = arr.length - 1;
+        if (arr.length <= 0) {
+            alert("Mang rong")
+        } else {
+            while (first < last) {
+                let b = arr[first];
+                arr[first] = arr[last];
+                arr[last] = b;
+                first++;
+                last--;
+            }
+        }
+        return arr;
+    }
+</script>
+</body>
+</html>

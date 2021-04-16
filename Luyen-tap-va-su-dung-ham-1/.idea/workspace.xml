@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a520875-15f6-460f-88e4-5d965d1cfc8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Bai1-Tao-ham-alertMessage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai2-Tao-ham-nhan-vao-mot-doi-so.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai3-Tong-2-tham-so.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai4-.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai5-Chom-sao.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +38,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Luyen-tap-va-su-dung-ham-2" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -55,6 +52,7 @@
       <updated>1618536369667</updated>
       <workItem from="1618536370780" duration="2534000" />
       <workItem from="1618539273009" duration="1690000" />
+      <workItem from="1618541109652" duration="613000" />
     </task>
     <servers />
   </component>
