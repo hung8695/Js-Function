@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h3>Add New Product</h3>
+<input type="text" placeholder="New Product" id="1">
+<input type="button" value="Add" oninput="add();">
+<h3>Display All Product<br></h3>
+<h4>Product Name</h4>
+<script>
+let arr=["Sony","Samsung"];
+let str='';
+str+="<table border='1' cellpadding='5px'>"
+for(var i=0;i<arr.length;i++){
+str+="<tr>"+"<td>"+arr[i]+"</td>"+"<td><input type='button' value='Edit'></td>"
+    +"<td><input type='button' value='Delete'></td>"+"</tr>";
+}
+str+="</table>"
+document.write(str)
+
+function add(arr){
+
+}
+function edit(arr){
+
+}
+</script>
+</body>
+</html>

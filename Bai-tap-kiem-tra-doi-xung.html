@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a=[1,2,2,1];
+    let b=[1,2,0,2,1];
+    let c =[1,2,1,2,12,1,2,12,1,2,12,1,2];
+    function isPalindrome(arr){
+      let a=0;
+      let b=arr.length-1;
+      if(arr.length<1){
+          return false;
+      }
+      for (var i=0;i<arr.length/2;i++){
+          if(arr[0+i]==arr[b-i]){
+              return true;
+          } else {
+              return false;
+          }
+      }
+
+    }
+</script>
+</body>
+</html>
